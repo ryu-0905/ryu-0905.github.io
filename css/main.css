@@ -132,6 +132,9 @@ small{
   /* main */
   /* about */
   /* works */
+  #works img{
+    width: 20%;
+  }
   #works section{
     margin: 16px 20%;
   }
