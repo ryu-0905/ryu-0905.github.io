@@ -1,0 +1,153 @@
+/* small screen */
+/* all */
+*{
+  text-align: center;
+  color: #666;
+}
+body{
+  margin: 0%;
+}
+section{
+  margin: 0 auto;
+}
+table{
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+img{
+  max-width: 100%;
+}
+/* header */
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+nav div{
+  width: 20%;
+}
+a{
+  margin: auto;
+  line-height: 64px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+a:hover{
+  background-color: #eee;
+}
+/* main */
+main > img{
+  opacity: 0.5;
+}
+main section{
+  margin: 32px 0;
+}
+section h1{
+  width: 100px;
+  border-bottom: 2px solid #666;
+  margin: 0 auto;
+}
+/* about */
+.about_icon{
+  border-radius: 50%;
+  margin-right: 16px;
+}
+#about div{
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+#about h2{
+  font-size: 32px;
+  margin: auto 0;
+}
+#about table{
+  max-width: 320px;
+}
+#about th{
+  text-align: right;
+  padding-top: 0;
+}
+#about td{
+  text-align: left;
+}
+/* works */
+#works section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
+  gap: 10px;
+  margin: 16px 10px;
+}
+#works div:hover{
+  opacity: 0.6;
+} 
+/* news */
+#news td{
+  border-bottom: 2px solid #ccc;
+}
+#news table{
+  margin: 16px auto;
+  padding: 0 16px;
+}
+/* contact */
+table input{
+  width: 100%;
+  text-align: start;
+}
+textarea{
+  width: 100%;
+  text-align: start;
+}
+/* footer */
+footer{
+  background-color: black;
+}
+small{
+  color: white;
+}
+
+/* large screen */
+@media(min-width: 500px){
+  /* header */
+  header{
+    display: flex;
+  }
+  header h1{
+    margin-left: 50px;
+  }
+  nav{
+    margin-left: auto;
+  }
+  a{
+    width: 100px;
+    margin: auto;
+    line-height: 64px;
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  /* main */
+  /* about */
+  /* works */
+  #works section{
+    margin: 16px 20%;
+  }
+  /* news */
+  #news table{
+    width: 640px;
+  }
+  /* contact */
+  table input{
+    width: 480px;
+  }
+  textarea{
+    width: 480px;
+  }
+  /* footer */
+}
+
+
+
