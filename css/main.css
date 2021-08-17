@@ -93,6 +93,9 @@ section h1{
   gap: 10px;
   margin: 16px 10px;
 }
+#works div{
+  background-color: #eee;
+}
 #works div:hover{
   opacity: 0.6;
 } 
