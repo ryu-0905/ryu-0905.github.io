@@ -65,8 +65,14 @@ section h1{
   font-size: 24px;
   margin: auto 0;
 }
-#about ul {
+#about table{
   margin-bottom: 30px;
+}
+#about th{
+  text-align: right;
+}
+#about td{
+  text-align: left;
 }
 #about p {
   max-width: 640px;
@@ -75,7 +81,7 @@ section h1{
 /* works */
 #works section{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(auto-fill, 1fr);
   gap: 10px;
   margin: 16px 10px;
@@ -130,6 +136,7 @@ small{
   /* works */
   #works section{
     margin: 16px 20%;
+    grid-template-columns: repeat(3, 1fr);
   }
   /* news */
   #news table{
