@@ -166,13 +166,13 @@ small{
   /* works */
   #works section{
     width: 50%;
-    min-width: 500px;
+    min-width: 600px;
     margin: 16px auto;
     grid-template-columns: repeat(3, 1fr);
   }
   /* news */
   #news table{
-    width: 640px;
+    width: 650px;
     line-height: 50px;
   }
   /* contact */
