@@ -166,7 +166,7 @@ small{
   /* works */
   #works section{
     width: 50%;
-    min-width: 600px;
+    min-width: 550px;
     margin: 16px auto;
     grid-template-columns: repeat(3, 1fr);
   }
