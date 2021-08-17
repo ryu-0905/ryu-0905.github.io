@@ -50,28 +50,25 @@ section h1{
   margin: 0 auto;
 }
 /* about */
-.about_icon{
+#about .name {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+#about img{
   border-radius: 50%;
   margin-right: 16px;
 }
-#about div{
-  display: flex;
-  justify-content: center;
-  margin: 16px 0;
-}
 #about h2{
-  font-size: 32px;
+  font-size: 24px;
   margin: auto 0;
 }
-#about table{
-  max-width: 320px;
+#about ul {
+  margin-bottom: 30px;
 }
-#about th{
-  text-align: right;
-  padding-top: 0;
-}
-#about td{
-  text-align: left;
+#about p {
+  max-width: 640px;
+  margin: 0 auto;
 }
 /* works */
 #works section{
@@ -93,12 +90,12 @@ section h1{
   padding: 0 16px;
 }
 /* contact */
-table input{
-  width: 100%;
+dd > input{
+  width: 60%;
   text-align: start;
 }
 textarea{
-  width: 100%;
+  width: 60%;
   text-align: start;
 }
 /* footer */
@@ -110,7 +107,7 @@ small{
 }
 
 /* large screen */
-@media(min-width: 500px){
+@media(min-width: 650px){
   /* header */
   header{
     display: flex;
@@ -123,11 +120,6 @@ small{
   }
   a{
     width: 100px;
-    margin: auto;
-    line-height: 64px;
-    text-decoration: none;
-    color: black;
-    display: block;
   }
   /* main */
   /* about */
@@ -138,14 +130,9 @@ small{
   /* news */
   #news table{
     width: 640px;
+    line-height: 50px;
   }
   /* contact */
-  table input{
-    width: 480px;
-  }
-  textarea{
-    width: 480px;
-  }
   /* footer */
 }
 

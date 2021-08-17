@@ -23,16 +23,19 @@
   
     <section id="about">
       <h1>About</h1>
-        <div>
-          <img class=about_icon src="img/About_icon.png" width="100px" height="100px">
-          <h2>篠原隆太郎</h2>
-        </div>
-        <table>
-          <tr><th>address:</th><td>福岡県飯塚市相田137-1</td></tr>
-          <tr><th>tel:</th><td>070-8900-5243</td></tr>
-          <tr><th>mail:</th><td>ryutarou.202.0905@gmail.com</td></tr>
-          <tr><th>comment:</th><td>今はjavascriptを勉強中です。 よろしくお願いします。</td></tr>
-        </table>
+      <div class="name">
+        <img src="img/About_icon.png" width="100px" height="100px">
+        <h2>篠原 隆太郎</h2>
+      </div>
+      <ul>
+        <li>address: 福岡県飯塚市相田137‐1</li>
+        <li>tel: 070-8900-5243</li>
+        <li>url: www.xxxxxx.jp</li>
+        <li>mail: ryutarou.202.0905@gmail.com</li>
+      </ul>
+      <p>
+        九州工業大学でエンジニアになるために就学中です。学校では主にC言語の学習をしています。独学でHTML・CSSについて学び、現在はドットインストールでJavascriptを学習中です。よろしくお願いします。
+      </p>
     </section>
     <section id="works">
       <h1>Works</h1>
@@ -56,13 +59,16 @@
     </section>
     <section id="contact">
       <h1>Contact</h1>
-      <form action="" method="POST">
-        <table>
-          <tr><th>NAME</th><td><input type="text"></td></tr>
-          <tr><th>Email</th><td><input type="text"></td></tr>
-          <tr><th>Message</th><td><textarea rows="8"></textarea></td></tr>
-        </table>
-        <input type="submit">
+      <form action="#" method="post">
+        <dl>
+          <dt><label for="name">NAME</label></dt>
+          <dd><input type="text" id="name"></dd>
+          <dt><label for="email">E-mail</label></dt>
+          <dd><input type="email" id="email"></dd>
+          <dt><label for="message">MESSAGE</label></dt>
+          <dd><textarea id="message" rows="8"></textarea></dd>
+        </dl>
+        <div class="button"><input type="submit" value="送信"></div>
       </form>
     </section>
   </main>
