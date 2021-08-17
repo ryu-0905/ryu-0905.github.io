@@ -1,11 +1,15 @@
 /* small screen */
 /* all */
 *{
+  font-size: 100%;
   text-align: center;
   color: #666;
 }
 body{
   margin: 0%;
+}
+body h1{
+  font-size: 24px;
 }
 section{
   margin: 0 auto;
@@ -21,6 +25,9 @@ img{
 }
 
 /* header */
+header h1{
+  font-size: 32px;
+}
 nav{
   display: flex;
   justify-content: space-around;
@@ -99,18 +106,36 @@ section h1{
   line-height: 32px;
 }
 /* contact */
-#contact dd > input{
-  width: 60%;
-  text-align: start;
+#contact {
+  max-width: 650px;
+  margin: 0 auto 100px auto;
 }
-#contact textarea{
-  width: 60%;
-  text-align: start;
+#contact table {
+  width: 100%;
 }
-
+#contact td input,
+#contact td textarea {
+  width: 90%;
+  border: solid 1px #ccc;
+  padding: 10px;
+  text-align: start;
+  font-weight: bold;
+}
+#contact .button input {
+  text-align: center;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #333;
+}
+#contact .button input:hover {
+  background: #fff;
+  color: #333;
+}
 /* footer */
 footer{
-  background-color: black;
+  background-color: #333;
 }
 small{
   color: white;
@@ -135,7 +160,7 @@ small{
   /* about */
   /* works */
   #works section{
-    margin: 16px 20%;
+    margin: 16px 25%;
     grid-template-columns: repeat(3, 1fr);
   }
   /* news */
@@ -144,12 +169,6 @@ small{
     line-height: 50px;
   }
   /* contact */
-  #contact dd > input{
-    width: 320px;
-  }
-  #contact textarea{
-    width: 320px;
-  }
   /* footer */
 }
 
