@@ -19,6 +19,7 @@ ul{
 img{
   max-width: 100%;
 }
+
 /* header */
 nav{
   display: flex;
@@ -37,6 +38,7 @@ a{
 a:hover{
   background-color: #eee;
 }
+
 /* main */
 main > img{
   opacity: 0.5;
@@ -88,16 +90,18 @@ section h1{
 #news table{
   margin: 16px auto;
   padding: 0 16px;
+  line-height: 32px;
 }
 /* contact */
-dd > input{
+#contact dd > input{
   width: 60%;
   text-align: start;
 }
-textarea{
+#contact textarea{
   width: 60%;
   text-align: start;
 }
+
 /* footer */
 footer{
   background-color: black;
@@ -133,6 +137,12 @@ small{
     line-height: 50px;
   }
   /* contact */
+  #contact dd > input{
+    width: 320px;
+  }
+  #contact textarea{
+    width: 320px;
+  }
   /* footer */
 }
 
