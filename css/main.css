@@ -50,6 +50,7 @@ a:hover{
 /* main */
 main > img{
   opacity: 0.5;
+  filter: blur(2px);
 }
 main section{
   margin: 32px 0;
@@ -67,6 +68,7 @@ section h1{
 }
 #about img{
   border-radius: 50%;
+  border: #ccc solid 1px;
   margin-right: 16px;
 }
 #about h2{
