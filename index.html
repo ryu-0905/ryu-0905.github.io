@@ -1,81 +1,140 @@
 <!-- 最終更新：2021/08/16 Shinohara ryutarou -->
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="css/main.css">
-  <title> My Work</title>
-</head>
-<body>
-  <header>
-    <h1>My Work</h1>
-    <nav>
-      <div><a href="#about">About</a></div>
-      <div><a href="#works">Works</a></div>
-      <div><a href="#news">News</a></div>
-      <div><a href="#contact">Contact</a></div>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>My Work</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Work</h1>
+      <nav>
+        <div><a href="#about">About</a></div>
+        <div><a href="#works">Works</a></div>
+        <div><a href="#news">News</a></div>
+        <div><a href="#contact">Contact</a></div>
+      </nav>
+    </header>
 
-  <main>
-    <img src="img/header.jpg" width="100%" height="320px">
-  
-    <section id="about">
-      <h1>About</h1>
-      <div class="name">
-        <img src="img/About_icon.jpg" width="100px" height="100px">
-        <h2>篠原 隆太郎</h2>
-      </div>
-      <table>
-        <tr><th>address:</th><td>福岡県飯塚市相田137-1</td></tr>
-        <tr><th>tel:</th><td>070-8900-5243</td></tr>
-        <tr><th>url:</th><td>https://ryu-0905.github.io</td></tr>
-        <tr><th>mail:</th><td>ryutarou.202.0905@gmail.com</td></tr>
-      </table>
-      <p>
-        九州工業大学でエンジニアになるために就学中です。学校では主にC言語の学習をしています。独学でHTML・CSSについて学び、現在はドットインストールでJavascriptを学習中です。よろしくお願いします。
-      </p>
-    </section>
-    <section id="works">
-      <h1>Works</h1>
-      <section>
-        <div><img src="img/html5.svg" alt=""></div>
-        <div><img src="img/js.svg" alt=""></div>
-        <div><img src="img/python.svg" alt=""></div>
-        <div><img src="img/c.svg" alt=""></div>
-        <div><img src="img/github.svg" alt=""></div>
-        <div><img src="img/linux.svg" alt=""></div>
-      </section>
-    </section>
-    <section id="news">
-      <h1>News</h1>
-      <table>
-        <tr><td>2021/05/17</td><td>サイトを作成しました！</td></tr>
-        <tr><td>2021/08/16</td><td>サイトがスマホに対応しました！</td></tr>
-        <tr><td>2021/xx/xx</td><td>このサイトが雑誌「xxx」に掲載されました！</td></tr>
-        <tr><td>2021/xx/xx</td><td>雑誌「xxx」の販売を始めます！</td></tr>
-      </table>
-    </section>
-    <section id="contact">
-      <h1>Contact</h1>
-      <form action="#" method="post">
+    <main>
+      <img src="img/header.jpg" width="100%" height="320px" />
+
+      <section id="about">
+        <h1>About</h1>
+        <div class="name">
+          <img src="img/About_icon.jpg" width="100px" height="100px" />
+          <h2>篠原 隆太郎</h2>
+        </div>
         <table>
-          <tr><th><label for="name">NAME</label></th>
-          <td><input type="text" id="name"></td></tr>
-          <tr><th><label for="email">E-mail</label></th>
-          <td><input type="email" id="email"></td></tr>
-          <tr><th><label for="message">MESSAGE</label></th>
-          <td><textarea id="message" rows="10"></textarea></td></tr>
+          <tr>
+            <th>address:</th>
+            <td>福岡県飯塚市相田137-1</td>
+          </tr>
+          <tr>
+            <th>tel:</th>
+            <td>070-8900-5243</td>
+          </tr>
+          <tr>
+            <th>url:</th>
+            <td>
+              <a href="https://ryu-0905.github.io/">
+                <p>https://ryu-0905.github.io/</p>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <th>mail:</th>
+            <td>ryutarou.202.0905@gmail.com</td>
+          </tr>
         </table>
-        <div class="button"><input type="submit" value="送信"></div>
-      </form>
-    </section>
-  </main>
+        <p>
+          九州工業大学でエンジニアになるために就学中です。学校では主にC言語の学習をしています。独学でHTML・CSS・Javascriptについて学び、現在はドットインストールでphpを学習中です。よろしくお願いします。
+        </p>
+      </section>
+      <section id="works">
+        <h1>Works</h1>
+        <section>
+          <div>
+            <a href="https://ryu-0905.github.io/calender/" target="_blank"
+              ><img src="img/calender.png" alt="カレンダー"
+            /></a>
+          </div>
+          <div>
+            <a href="https://ryu-0905.github.io/clock/" target="_blank"
+              ><img src="img/clock.png" alt="アナログ時計"
+            /></a>
+          </div>
+          <div>
+            <a href="https://ryu-0905.github.io/typing/" target="_blank"
+              ><img src="img/typing.png" alt="タイピング"
+            /></a>
+          </div>
+          <div>
+            <a href="https://ryu-0905.github.io/clickGame/" target="_blank"
+              ><img src="img/clickGame.png" alt="クリックゲーム"
+            /></a>
+          </div>
+          <div>
+            <a href="https://ryu-0905.github.io/15puzzle/" target="_blank"
+              ><img src="img/15puzzle.png" alt="15パズル"
+            /></a>
+          </div>
+          <div>
+            <a href="https://ryu-0905.github.io/pongGame/" target="_blank"
+              ><img src="img/pongGame.png" alt="ブロック崩し"
+            /></a>
+          </div>
+        </section>
+        <p>＊PC推奨(スマホに対応していない可能性があります。)</p>
+      </section>
+      <section id="news">
+        <h1>News</h1>
+        <table>
+          <tr>
+            <td>2021/05/17</td>
+            <td>サイトを作成しました！</td>
+          </tr>
+          <tr>
+            <td>2021/08/16</td>
+            <td>サイトがスマホに対応しました！</td>
+          </tr>
+          <tr>
+            <td>2021/10/01</td>
+            <td>[Works]の内容を更新しました。</td>
+          </tr>
+          <!-- <tr>
+            <td>2021/xx/xx</td>
+            <td>雑誌「xxx」の販売を始めます！</td>
+          </tr> -->
+        </table>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <form action="#" method="post">
+          <table>
+            <tr>
+              <th><label for="name">NAME</label></th>
+              <td><input type="text" id="name" /></td>
+            </tr>
+            <tr>
+              <th><label for="email">E-mail</label></th>
+              <td><input type="email" id="email" /></td>
+            </tr>
+            <tr>
+              <th><label for="message">MESSAGE</label></th>
+              <td><textarea id="message" rows="10"></textarea></td>
+            </tr>
+          </table>
+          <div class="button"><input type="submit" value="送信" /></div>
+        </form>
+      </section>
+    </main>
 
-  <footer>
-    <small>©Shinohara ryutarou</small>
-  </footer>
-</body>
+    <footer>
+      <small>©Shinohara ryutarou</small>
+    </footer>
+  </body>
 </html>
